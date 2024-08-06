@@ -1,0 +1,20 @@
+{
+  "name": "threepipe-device-mockup-codrops",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --base ./",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.3.5",
+    "threepipe": "^0.0.33",
+    "@threepipe/plugin-tweakpane": "^0.4.1"
+  },
+  "overrides": {
+    "threepipe": "^0.0.33"
+  }
+}
