@@ -176,7 +176,7 @@ async function init() {
   })
 
   // Close all devices when the user presses the Escape key.
-  document.addEventListener('keypress', (ev)=>{
+  document.addEventListener('keydown', (ev)=>{
     if (ev.key === 'Escape' && state.focused) setState({hover: '', focused: ''})
   })
 
